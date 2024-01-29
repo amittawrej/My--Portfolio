@@ -1,0 +1,22 @@
+.logo{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
