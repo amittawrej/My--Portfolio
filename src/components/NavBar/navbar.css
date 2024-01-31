@@ -2,17 +2,19 @@
     height: 3rem;
     width: 4rem;
     object-fit: cover;
-    /* margin-left: 90px; */
+    /* margin-left: 20px; */
 }
 .navbar{
+    box-sizing: content-box;
     background: rgb(30, 30, 30);
-    height: 5rem;
+    height: 3.5rem;
     width: 100vw;
-    max-width: 90vw;
-    margin: 0 auto;
+    max-width: 92vw;
+    margin: 0 0.2rem;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -48,4 +50,46 @@
     padding: 0 1rem;
     border-radius: 2rem;
     
+}
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+    border: 0.1rem solid rgb(30, 30, 30);
+}
+@media  screen and (max-width: 720px) {
+    .mobMenu{
+        display: flex;
+        margin-right: 1.5rem;
+    }
+    .desktopMenuListItem{
+        display: none;
+    }
+    .desktopMenuButton{
+        display: none;
+    }
 }
