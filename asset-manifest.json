@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/My--Portfolio/static/css/main.7bc7f8b4.css",
+    "main.js": "/My--Portfolio/static/js/main.2037d77d.js",
+    "static/media/image.png": "/My--Portfolio/static/media/image.00cdf3615da8d4c54ace.png",
+    "static/media/goldgym.png": "/My--Portfolio/static/media/goldgym.fbfd0165130a298e74ce.png",
+    "static/media/todo.png": "/My--Portfolio/static/media/todo.e74397acfab70b808a4b.png",
+    "static/media/techmahindra1.png": "/My--Portfolio/static/media/techmahindra1.e5e40c8e8c01efe2b6e0.png",
+    "static/media/digitronics1.png": "/My--Portfolio/static/media/digitronics1.a77566e59bc3e7ebbf3f.png",
+    "static/media/ubisoft1.png": "/My--Portfolio/static/media/ubisoft1.8e6c1160bebe5bdef7fc.png",
+    "static/media/ui-design.png": "/My--Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/My--Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/My--Portfolio/index.html",
+    "main.7bc7f8b4.css.map": "/My--Portfolio/static/css/main.7bc7f8b4.css.map",
+    "main.2037d77d.js.map": "/My--Portfolio/static/js/main.2037d77d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bc7f8b4.css",
+    "static/js/main.2037d77d.js"
+  ]
+}
