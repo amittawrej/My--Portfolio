@@ -71,12 +71,16 @@
     margin: 2rem;
 }
 .links{
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 .link{
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+    margin-bottom: 1rem;
 }
