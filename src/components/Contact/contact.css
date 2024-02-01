@@ -19,6 +19,11 @@
     font-weight: 300;
     font-size: 1rem;
     margin-bottom: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .clientImgs{
     margin: 1rem 0;
@@ -38,10 +43,14 @@
 #clients{
     padding:2rem ;
 }
-.contactDesc{
+.contactDesc{margin: 0 1rem;
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .contactForm{
     margin: 1rem 2rem;
