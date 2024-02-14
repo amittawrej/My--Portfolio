@@ -2,15 +2,16 @@
     height: 3rem;
     width: 4rem;
     object-fit: cover;
-    /* margin-left: 20px; */
+    /* margin-left: 50px; */
 }
+
 .navbar{
     box-sizing: content-box;
     background: rgb(30, 30, 30);
     height: 3.5rem;
     width: 100vw;
     max-width: 92vw;
-    margin: 0 0.2rem;
+    
     padding: 1rem 2rem;
     display: flex;
     align-items: center;

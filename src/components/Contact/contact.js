@@ -4,10 +4,12 @@ import emailjs from '@emailjs/browser';
 import Digitronics from '../../images/digitronics1.png';
 import Ubisoft from '../../images/ubisoft1.png';
 import TechMahindra from '../../images/techmahindra1.png';
-import FacebookIcon from '../../images/facebook-icon.png';
-import InstagramIcon from '../../images/instagram.png';
-import YouTubeIcon from '../../images/youtube.png';
-import TwitterIcon from '../../images/twitter.png';
+// import FacebookIcon from '../../images/facebook-icon.png';
+// import InstagramIcon from '../../images/instagram.png';
+// import YouTubeIcon from '../../images/youtube.png';
+import TwitterIcon from '../../images/X.png';
+import LinkedIn from '../../images/LinkedIn.png'
+import Github from '../../images/Github.png'
 
 const Contact = () => {
   const form = useRef();
@@ -53,7 +55,7 @@ const Contact = () => {
       <div className="clients">
         <h1 className="contactPageTitle">My Client</h1>
         <p className="clientDesc">
-          I have had the opportunity to work with a diverse group of companies. Some of the notable companies I have collaborated with include
+          I have had the opportunity to work with a diverse group of companies. Some of the notable companies I have collaborated with include following:
         </p>
         <div className="clientImgs">
           <img src={Digitronics} alt="Client" className="clientImg" />
@@ -79,10 +81,12 @@ const Contact = () => {
         {successMessage && <p className="successMessage">{successMessage}</p>}
 
         <div className="links">
-          <img src={FacebookIcon} alt="FacebookIcon" className="link" />
-          <img src={TwitterIcon} alt="TwitterIcon" className="link" />
-          <img src={YouTubeIcon} alt="YouTubeIcon" className="link" />
-          <img src={InstagramIcon} alt="InstagramIcon" className="link" />
+          {/* <img src={FacebookIcon} alt="FacebookIcon" className="link" /> */}
+         <a href='https://twitter.com/amittawrej?lang=en'> <img src={TwitterIcon} alt="TwitterIcon" className="link" /></a>
+          {/* <img src={YouTubeIcon} alt="YouTubeIcon" className="link" /> */}
+          {/* <img src={InstagramIcon} alt="InstagramIcon" className="link" /> */}
+          <a href='https://github.com/amittawrej'><img src={Github} alt="InstagramIcon " className="link" /></a>
+          <a href='https://www.linkedin.com/in/amit-tawrej-73505b201/'><img src={LinkedIn} alt="InstagramIcon" className="link" /></a>
         </div>
       </div>
     </section>

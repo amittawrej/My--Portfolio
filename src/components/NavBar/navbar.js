@@ -9,7 +9,8 @@ const Navbar = () => {
   return (
    <div>
     <nav className="navbar">
-      <img src={logo} alt="logo" className='logo' />
+      <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-50} duration={500}><img src={logo} alt="logo" className='logo' /></Link>
+
       <div className="desktopMenu">
         <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem"> Home </Link>
         <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem"> About </Link>

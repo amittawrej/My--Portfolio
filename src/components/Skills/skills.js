@@ -3,11 +3,32 @@ import './skills.css';
 import UiDesign from '../../images/ui-design.png'
 import WebDesign from '../../images/website-design.png'
 import AppDesign from '../../images/app-design.png'
+import Html from '../../images/HTML.png'
+import Css from '../../images/CSS.png'
+import Js from '../../images/JS.png'
+import Reactjs from '../../images/REACT.png'
+import Node from '../../images/NODE.png'
+import Mongo from '../../images/MONGO.png'
+import ReactNative from '../../images/REACT N.png'
+
 const Skills = () => {
   return (
     <section id='skills'>
         <span className="skillTitle">What I Do</span>
         <span className="skillDesc">I am skilled passionate web designer with experience in creating visually appealing and user-friendly websites. I have a string understanding of design and a keen eye for detail. I am proficent in HTML, CSS, and Javascript, as well as design software.</span>
+        
+        <span className="TechStack">Tech Stack</span>
+        <div className='skillImgs'>
+        
+            <img src={Html} alt='Html' className='skillImg'/>
+            <img src={Css} alt='Css' className='skillImg'/>
+            <img src={Js} alt='JavaScript'className='skillImg'/>
+            <img src={Reactjs} alt='ReactJS'className='skillImg'/>
+            <img src={Node} alt='NodeJS'className='skillImg'/>
+            <img src={Mongo} alt='MongoDB'className='skillImg'/>
+            <img src={ReactNative} alt='React Native'className='skillImg'/>
+        </div>
+
         <div className="skillBars">
             
             <div className="skillBar">

@@ -12,6 +12,7 @@
 .worksTitle{
     margin: 2rem 0;
     font-size: 3rem;
+    border-bottom: 5px solid white;
 }
 .workDesc{
     font-weight: 300;
