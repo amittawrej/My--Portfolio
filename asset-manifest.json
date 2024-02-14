@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My--Portfolio/static/css/main.9441e070.css",
+    "main.css": "/My--Portfolio/static/css/main.2a7d95ab.css",
     "main.js": "/My--Portfolio/static/js/main.81316387.js",
     "static/media/goldgym.png": "/My--Portfolio/static/media/goldgym.fbfd0165130a298e74ce.png",
     "static/media/X.png": "/My--Portfolio/static/media/X.25bae1f1fcfea8b7e4db.png",
@@ -17,11 +17,11 @@
     "static/media/ubisoft1.png": "/My--Portfolio/static/media/ubisoft1.8e6c1160bebe5bdef7fc.png",
     "static/media/ui-design.png": "/My--Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "index.html": "/My--Portfolio/index.html",
-    "main.9441e070.css.map": "/My--Portfolio/static/css/main.9441e070.css.map",
+    "main.2a7d95ab.css.map": "/My--Portfolio/static/css/main.2a7d95ab.css.map",
     "main.81316387.js.map": "/My--Portfolio/static/js/main.81316387.js.map"
   },
   "entrypoints": [
-    "static/css/main.9441e070.css",
+    "static/css/main.2a7d95ab.css",
     "static/js/main.81316387.js"
   ]
 }
