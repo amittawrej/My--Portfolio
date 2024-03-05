@@ -14,9 +14,9 @@ const Works = () => {
             </a>
         </div>
         <div className="workItem">
-          <a  href='https://github.com/amittawrej/Daily-Task-Manager-App' target="_blank" rel="noreferrer"> 
+          <a  href='https://todobyaat.netlify.app/' target="_blank" rel="noreferrer"> 
             <img src={Todo} alt="Todo" className="worksImg" />
-            <p className='imgDesc'>Task Manager App</p>
+            <p className='imgDesc'>Todo App</p>
             </a>
         </div>
     </div>
