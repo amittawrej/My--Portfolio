@@ -2,6 +2,7 @@ import React from 'react'
 import './works.css'
 import GoldGym from '../../images/goldgym.png'
 import Todo from '../../images/todo.png'
+import Ecart from '../../images/E-cart.png'
 const Works = () => {
   return (
     <section id='works'>
@@ -17,6 +18,12 @@ const Works = () => {
           <a  href='https://todobyaat.netlify.app/' target="_blank" rel="noreferrer"> 
             <img src={Todo} alt="Todo" className="worksImg" />
             <p className='imgDesc'>Todo App</p>
+            </a>
+        </div>
+        <div className="workItem">
+          <a  href='https://e-cartbyaat.netlify.app/' target="_blank" rel="noreferrer"> 
+            <img src={Ecart} alt="Todo" className="worksImg" />
+            <p className='imgDesc'>E-Commerce website</p>
             </a>
         </div>
     </div>
